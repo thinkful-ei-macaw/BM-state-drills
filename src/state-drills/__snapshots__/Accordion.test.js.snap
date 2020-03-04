@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion Component only opens one section at a time 1`] = `
+<ul>
+  <li>
+    <button
+      key="0"
+      onClick={[Function]}
+    >
+      Section 1
+      <div>
+        <p
+          className="content"
+        />
+      </div>
+    </button>
+  </li>
+  <li>
+    <button
+      key="1"
+      onClick={[Function]}
+    >
+      Section 2
+      <div>
+        <p
+          className="content"
+        />
+      </div>
+    </button>
+  </li>
+  <li>
+    <button
+      key="2"
+      onClick={[Function]}
+    >
+      Section 3
+      <div>
+        <p
+          className="content"
+        >
+          Animi amet cumque sint cupiditate officia ab voluptatibus libero optio et?
+        </p>
+      </div>
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Component opens any clicked question 1`] = `
+<ul>
+  <li>
+    <button
+      key="0"
+      onClick={[Function]}
+    >
+      Section 1
+      <div>
+        <p
+          className="content"
+        />
+      </div>
+    </button>
+  </li>
+  <li>
+    <button
+      key="1"
+      onClick={[Function]}
+    >
+      Section 2
+      <div>
+        <p
+          className="content"
+        >
+          Cupiditate tenetur aliquam necessitatibus id distinctio quas nihil ipsam nisi modi!
+        </p>
+      </div>
+    </button>
+  </li>
+  <li>
+    <button
+      key="2"
+      onClick={[Function]}
+    >
+      Section 3
+      <div>
+        <p
+          className="content"
+        />
+      </div>
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Component renders empty given no Accordion 1`] = `<ul />`;
+
+exports[`Accordion Component renders no sections by default 1`] = `
+<ul>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+      Section 1
+      <div>
+        <p
+          className="content"
+        />
+      </div>
+    </button>
+  </li>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+      Section 2
+      <div>
+        <p
+          className="content"
+        />
+      </div>
+    </button>
+  </li>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+      Section 3
+      <div>
+        <p
+          className="content"
+        />
+      </div>
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Component renders the first tab by default 1`] = `
+<ul>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+      Section 1
+      <div>
+        <p
+          className="content"
+        />
+      </div>
+    </button>
+  </li>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+      Section 2
+      <div>
+        <p
+          className="content"
+        />
+      </div>
+    </button>
+  </li>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+      Section 3
+      <div>
+        <p
+          className="content"
+        />
+      </div>
+    </button>
+  </li>
+</ul>
+`;
